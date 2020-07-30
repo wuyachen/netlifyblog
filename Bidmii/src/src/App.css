@@ -1,0 +1,33 @@
+.App {
+  width:100%;
+  border: 1px solid grey;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.1), 0 2px 4px 1px rgba(0,0,0,.18);
+}
+
+.App-component input{
+  margin: 10px auto 0 auto;
+  width: 800px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  border:none;
+  padding: 10px 5px;
+  box-sizing: border-box;
+}
+
+.App-component ul{
+  list-style-type: non;
+  text-align:left;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid grey;
+}
+
+.App-component li{
+  padding:10px 5px;
+  cursor: pointer;
+}
+
+.App-component li:hover{
+  text-decoration:underline;
+  background-color: rgba(128,128,128,0.20);
+}
